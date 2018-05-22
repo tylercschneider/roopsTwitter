@@ -1,0 +1,118 @@
+body{
+	margin:0;
+	font-family: arial;
+}
+#bigContain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #f3f1f7;
+}
+#bigTitle{
+	color: rgb(3, 169, 244);
+}
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 800px;
+	width: 80%;
+}
+#postContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: white;
+	width: 100%;
+	border-radius: 10px;
+	min-height: 700px;
+	margin: 20px;
+	padding:20px 0;
+	border: 1px black solid;
+}
+#newPost {
+	width: 100%;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 15px 0 15px 0;
+
+}
+.post{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: grey 2px solid;
+	background-color: white;
+	padding: 15px;
+
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin-left: 20px;
+}
+.content p, .content h3{
+	margin: 0;
+}
+.delete{
+	font-size: 20px;
+	color: #000;
+	background-color: transparent;
+	border: 0;
+	width: 20px;
+}
+.counter {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin:	0 10px;
+
+}
+.counter a {
+	text-decoration: none;
+}
+#addForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	border-radius: 10px;
+	min-height: 700px;
+	margin: 20px;
+	padding:20px 0;
+	border: 1px black solid;
+	background-color: #B1DDEA;
+}
+#add {
+	width: 80%;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 15px 0 15px 0;
+	margin-top: 30px;
+}
+#addForm input {
+	width: 80%;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 5px;
+	padding: 15px 0 15px 20px;
+	font-size: 15px;
+
+}
+#addForm h3 {
+	align-self: flex-start;
+	margin-left:80px;
+}
+#thoughtData {
+	height: 400px;
+}
